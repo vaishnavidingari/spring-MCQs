@@ -18,7 +18,7 @@ Both are same and can be used with any class
 @Configuration is alternative to declaring beans in XML, @Component is just a spring bean
 @Configuration is used for resources while @Component is to create custom component
 
-Ans:
+Ans:  @Configuration is alternative to declaring beans in XML, @Component is just a spring bean
 
 
 Q3
@@ -75,12 +75,13 @@ Ans:We use the <property> element to set the properties that reference other bea
 Q4
 What is the purpose of @Qualifier annotation?
 Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
-Spring doesnít support this annotation
+Spring doesn‚Äôt support this annotation
 It helps specify object with multiple dependency which dependency to inject
 It is used in conjunction with @Autowired
 Annotation used to qualify the normal bean as spring bean
 
-Ans:It is used in conjunction with @Autowired,...
+Ans:It is used in conjunction with @Autowired,
+It helps specify object with multiple dependency which dependency to inject
 
 
 
@@ -116,7 +117,7 @@ value or index
 value and ref
 value or ref
 
-Ans:
+Ans:value and ref
 
 
 
@@ -161,7 +162,7 @@ Ans:    InitializingBean and DisposableBean
 
 
 Q11
-Is spring beans ìsingletonî by default?
+Is spring beans ‚Äúsingleton‚Äù by default?
 Single Choice - Select one correct answer from the options list.
 TRUE
 FALSE
@@ -213,6 +214,8 @@ Same class every time
 Same instance of the bean
 Different instance of the bean
 None of them
+
+Ans: Same instance of the bean
 
 
 Q16 
@@ -303,6 +306,8 @@ Used to bind the REST url parameters
 Configuration annotation used to configure relative and absolute path
 None of the above
 
+Ans:Used to bind the REST url parameters
+
 
 Q24 
 Choose the scope which is added in Spring5 version?
@@ -312,6 +317,7 @@ WebSocket
 Singleton
 Prototype
 
+Ans:Session
 
 
 
@@ -345,7 +351,7 @@ Which of the following statements are true about Spring DAO Support? (Choose 3)
 Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
 Data Access Support module provides a JDBC-abstraction layer that reduces the need to do  tedious JDBC coding.
 Data Access Support for integration of Java Database Connectivity.
-JDBC package doesnít support declarative transcation management.
+JDBC package doesn‚Äôt support declarative transcation management.
 GethibernateTemplate is used to return the Hibernate Template in DAO
 
 
@@ -369,8 +375,7 @@ POST handle update while PUT handles create
 POST handles create while PUT handles update
 None of the above
 
-Ans:POST handle update while PUT handles create
-
+Ans:There is no difference, you can use either based on convinence
 
 
 
